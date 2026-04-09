@@ -77,10 +77,10 @@ Statistical significance (paired permutation test, 5000 permutations):
 - HAT vs WordPiece: delta F1 = +0.0216, p = 0.0000 ✓
 
 Innovation-improvement plots:
-- ![Innovation delta F1](../results/analysis/innovation_delta_f1.png)
-- ![Innovation delta speed](../results/analysis/innovation_delta_speed.png)
-- ![Innovation delta OOV](../results/analysis/innovation_delta_oov.png)
-- ![Innovation exact-match gain](../results/analysis/innovation_exact_match_gain_test.png)
+- ![Innovation delta F1](images/innovation_delta_f1.png)
+- ![Innovation delta speed](images/innovation_delta_speed.png)
+- ![Innovation delta OOV](images/innovation_delta_oov.png)
+- ![Innovation exact-match gain](images/innovation_exact_match_gain_test.png)
 
 ## Final synthesis
 - Validated innovation improvement on primary metric: EBR and HAT both improve boundary F1 over their intended baselines (statistically significant). EBR works by re-joining tokens that regex incorrectly splits (contractions, abbreviations, hyphens). HAT works by keeping frequent words whole via EBR and only falling back to subword for rare/complex tokens.

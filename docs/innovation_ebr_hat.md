@@ -83,10 +83,10 @@ Strict sentence agreement on test:
 Statistical significance: delta F1 = +0.0216, p = 0.0000 (paired permutation test, significant at α=0.05)
 
 Innovation-improvement plots:
-- ![Innovation delta F1](../results/analysis/innovation_delta_f1.png)
-- ![Innovation delta speed](../results/analysis/innovation_delta_speed.png)
-- ![Innovation delta OOV](../results/analysis/innovation_delta_oov.png)
-- ![Innovation exact-match gain](../results/analysis/innovation_exact_match_gain_test.png)
+- ![Innovation delta F1](images/innovation_delta_f1.png)
+- ![Innovation delta speed](images/innovation_delta_speed.png)
+- ![Innovation delta OOV](images/innovation_delta_oov.png)
+- ![Innovation exact-match gain](images/innovation_exact_match_gain_test.png)
 
 ## 5. What improved and what did not
 

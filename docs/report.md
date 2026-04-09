@@ -45,10 +45,10 @@ Key baseline outcomes on test:
 - Lowest OOV among trainable subword baselines: `sentencepiece_unigram` = 0.000057. The Unigram LM objective maximizes likelihood over all possible segmentations, allowing it to represent any unseen string as a composition of character and subword pieces, virtually eliminating OOV.
 
 Key plots used for baseline comparison:
-- ![Boundary F1 dev vs test](../results/analysis/boundary_f1_dev_vs_test.png)
-- ![Speed dev vs test](../results/analysis/speed_dev_vs_test.png)
-- ![Subword OOV vs token count](../results/analysis/subword_oov_vs_token_count_test.png)
-- ![Quality vs OOV](../results/analysis/quality_vs_oov_test.png)
+- ![Boundary F1 dev vs test](images/boundary_f1_dev_vs_test.png)
+- ![Speed dev vs test](images/speed_dev_vs_test.png)
+- ![Subword OOV vs token count](images/subword_oov_vs_token_count_test.png)
+- ![Quality vs OOV](images/quality_vs_oov_test.png)
 
 ### 3.3 What baseline analysis showed (shortcomings)
 1. Rule-based methods have strong boundary fidelity but weaker robustness to token novelty and style variation. This is because fixed rule sets cannot adapt to unseen word forms or spelling variations — they have no learned fallback for novel tokens.
@@ -63,10 +63,10 @@ Key plots used for baseline comparison:
 - **HAT** (`hybrid_adaptive_hat`): adaptive rule-plus-subword routing for difficult tokens.
 
 Innovation-improvement plots:
-- ![Innovation delta F1](../results/analysis/innovation_delta_f1.png)
-- ![Innovation delta speed](../results/analysis/innovation_delta_speed.png)
-- ![Innovation delta OOV](../results/analysis/innovation_delta_oov.png)
-- ![Innovation exact-match gain](../results/analysis/innovation_exact_match_gain_test.png)
+- ![Innovation delta F1](images/innovation_delta_f1.png)
+- ![Innovation delta speed](images/innovation_delta_speed.png)
+- ![Innovation delta OOV](images/innovation_delta_oov.png)
+- ![Innovation exact-match gain](images/innovation_exact_match_gain_test.png)
 
 ### 4.2 What was implemented
 - EBR repairs:
@@ -148,9 +148,9 @@ Quantitative artifacts:
 - `results/error_confusion_examples.csv`
 
 Plots:
-- ![Mismatch rate](../results/analysis/error_mismatch_rate_test.png)
-- ![Error type distribution](../results/analysis/error_type_distribution_test.png)
-- ![Error confusion heatmap](../results/analysis/error_confusion_heatmap.png)
+- ![Mismatch rate](images/error_mismatch_rate_test.png)
+- ![Error type distribution](images/error_type_distribution_test.png)
+- ![Error confusion heatmap](images/error_confusion_heatmap.png)
 
 Dominant observed categories in mismatches:
 - punctuation-attachment
