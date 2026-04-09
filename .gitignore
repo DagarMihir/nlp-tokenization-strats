@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+.venv/
+.DS_Store
+
+# Generated results (regenerate with scripts/)
+results/**/*.png
+results/**/*.csv
+results/**/*.md
+results/*.png
+results/*.csv
+results/*.md
+!results/.gitkeep
+
+# SentencePiece model files (generated during training)
+*.model
+*.vocab
